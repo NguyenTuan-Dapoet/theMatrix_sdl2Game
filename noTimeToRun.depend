@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1681079042 source:c:\users\admin\desktop\notimetorun-master\init.cpp
+	"file.header/init.h"
+	"file.header/constants.h"
+
+1681079042 c:\users\admin\desktop\notimetorun-master\file.header\init.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string>
+
+1682673146 c:\users\admin\desktop\notimetorun-master\file.header\constants.h
+	<string>
+	<SDL_ttf.h>
+
+1681079042 source:c:\users\admin\desktop\notimetorun-master\main_object.cpp
+	"file.header/main_object.h"
+
+1681079042 c:\users\admin\desktop\notimetorun-master\file.header\main_object.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"constants.h"
+
+1681079042 source:c:\users\admin\desktop\notimetorun-master\map.cpp
+	"file.header/map.h"
+
+1681079042 c:\users\admin\desktop\notimetorun-master\file.header\map.h
+	<fstream>
+	<iostream>
+	"constants.h"
+	"init.h"
+
+1681079042 source:c:\users\admin\desktop\notimetorun-master\screen.cpp
+	"file.header/screen.h"
+	"file.header/sound.h"
+	"file.header/main_object.h"
+	"file.header/valueToUse.h"
+
+1681079042 c:\users\admin\desktop\notimetorun-master\file.header\screen.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+
+1681079042 c:\users\admin\desktop\notimetorun-master\file.header\sound.h
+	"init.h"
+
+1682673045 c:\users\admin\desktop\notimetorun-master\file.header\valuetouse.h
+	<SDL.h>
+	<SDL_image.h>
+	"constants.h"
+	<vector>
+
+1681079042 source:c:\users\admin\desktop\notimetorun-master\sound.cpp
+	"file.header/sound.h"
+
+1682673048 source:c:\users\admin\desktop\notimetorun-master\valuetouse.cpp
+	"file.header/valueToUse.h"
+	"file.header/init.h"
+	<math.h>
+
+1682672926 source:c:\users\admin\desktop\notimetorun-master\scoreboard.cpp
+	"file.header/scoreBoard.h"
+	"file.header/constants.h"
+	<iostream>
+
+1681079042 c:\users\admin\desktop\notimetorun-master\file.header\scoreboard.h
+	<string>
+	<fstream>
+	<SDL.h>
+	<SDL_ttf.h>
+
+1682672840 source:c:\users\admin\desktop\notimetorun-master\ghost_object.cpp
+	"file.header/ghost_object.h"
+	<queue>
+	<stack>
+	<vector>
+	<utility>
+	<algorithm>
+
+1682672868 c:\users\admin\desktop\notimetorun-master\file.header\ghost_object.h
+	<SDL.h>
+	<SDL_image.h>
+	"constants.h"
+	<math.h>
+	<vector>
+	<utility>
+	"valueToUse.h"
+
+1682672929 source:c:\users\admin\desktop\notimetorun-master\main.cpp
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+	<bits/stdc++.h>
+	"file.header/constants.h"
+	"file.header/init.h"
+	"file.header/map.h"
+	"file.header/sound.h"
+	"file.header/main_object.h"
+	"file.header/ghost_object.h"
+	"file.header/scoreBoard.h"
+	"file.header/screen.h"
+	"file.header/valueToUse.h"
+	<bits/stdc++.h>
+

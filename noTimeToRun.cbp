@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dungeons_of_challenge" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/dungeons_of_challenge" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dungeons_of_challenge" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="file.header/constants.h" />
+		<Unit filename="file.header/ghost_object.h" />
+		<Unit filename="file.header/init.h" />
+		<Unit filename="file.header/main_object.h" />
+		<Unit filename="file.header/map.h" />
+		<Unit filename="file.header/scoreBoard.h" />
+		<Unit filename="file.header/screen.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="file.header/sound.h" />
+		<Unit filename="file.header/valueToUse.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="ghost_object.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="init.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="main_object.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="map.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="scoreBoard.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="screen.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="sound.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="valueToUse.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
